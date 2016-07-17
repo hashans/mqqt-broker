@@ -1,6 +1,11 @@
 {
   "name": "mqqt-broker",
   "version": "0.0.1",
+  "main": "server.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js"
+  },
   "dependencies": {
     "mosca": "^2.0.2"
   }
