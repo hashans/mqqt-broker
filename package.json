@@ -1,0 +1,7 @@
+{
+  "name": "mqqt-broker",
+  "version": "0.0.1",
+  "dependencies": {
+    "mosca": "^2.0.2"
+  }
+}
