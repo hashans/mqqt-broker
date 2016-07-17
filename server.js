@@ -11,8 +11,10 @@ var ascoltatore = {
     mongo: {}
 };
 
+var portNum = process.env.PORT || 6001;
+
 var settings = {
-    port: process.env.PORT || 6001,
+    port: portNum,
     backend: ascoltatore
 };
 
