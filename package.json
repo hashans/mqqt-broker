@@ -8,5 +8,9 @@
   },
   "dependencies": {
     "mosca": "^2.0.2"
+  },
+  "engines": {
+    "node": "5.5.0",
+    "npm": "3.8.9"
   }
 }
