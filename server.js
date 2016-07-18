@@ -11,7 +11,7 @@ var ascoltatore = {
     mongo: {}
 };
 
-var portNum = process.env.PORT || 6001;
+var portNum = parseInt(process.env.PORT) || 6001;
 
 var settings = {
     port: portNum,
